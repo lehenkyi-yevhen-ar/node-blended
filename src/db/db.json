@@ -2,73 +2,91 @@
   {
     "name": "Ergonomic Frozen Towels",
     "price": "82.93",
-    "category": "Movies",
-    "description": "Stylish Chicken designed to make you stand out with substantial looks"
+    "category": "Movies"
   },
   {
     "name": "Rustic Concrete Bike",
     "price": "937.49",
-    "category": "Kids",
-    "description": "New Computer model with 52 GB RAM, 421 GB storage, and overdue features"
+    "category": "Kids"
   },
   {
     "name": "Handcrafted Wooden Car",
     "price": "115.50",
-    "category": "Computers",
-    "description": "Stylish Sausages designed to make you stand out with advanced looks"
+    "category": "Computers"
   },
   {
     "name": "Intelligent Granite Chair",
     "price": "256.15",
-    "category": "Movies",
-    "description": "The Open-architected directional database Shirt offers reliable performance and partial design"
+    "category": "Movies"
   },
   {
     "name": "Bespoke Steel Shirt",
     "price": "549.79",
-    "category": "Games",
-    "description": "Innovative Mouse featuring accurate technology and Granite construction"
+    "category": "Games"
   },
   {
     "name": "Modern Frozen Gloves",
     "price": "47.65",
-    "category": "Shoes",
-    "description": "Our moist-inspired Bacon brings a taste of luxury to your pessimistic lifestyle"
+    "category": "Shoes"
   },
   {
     "name": "Small Concrete Sausages",
     "price": "119.45",
-    "category": "Automotive",
-    "description": "New Pizza model with 97 GB RAM, 90 GB storage, and disloyal features"
+    "category": "Automotive"
   },
   {
     "name": "Unbranded Rubber Towels",
     "price": "273.29",
-    "category": "Garden",
-    "description": "Stylish Fish designed to make you stand out with every looks"
+    "category": "Garden"
   },
   {
     "name": "Handcrafted Wooden Chicken",
     "price": "221.19",
-    "category": "Garden",
-    "description": "Innovative Salad featuring snoopy technology and Rubber construction"
+    "category": "Garden"
   },
   {
     "name": "Recycled Frozen Gloves",
     "price": "596.32",
-    "category": "Jewelry",
-    "description": "Discover the tiger-like agility of our Table, perfect for zealous users"
+    "category": "Jewelry"
   },
   {
     "name": "Intelligent Cotton Towels",
     "price": "180.61",
-    "category": "Clothing",
-    "description": "Generic Table designed with Wooden for whirlwind performance"
+    "category": "Clothing"
   },
   {
     "name": "Electronic Steel Bacon",
     "price": "265.19",
-    "category": "Computers",
-    "description": "The Naomi Sausages is the latest in a series of sizzling products from Kerluke Inc"
+    "category": "Computers"
+  },
+  {
+    "name": "Modern Cotton Ball",
+    "price": "800.15",
+    "category": "Toys"
+  },
+  {
+    "name": "Sleek Granite Bike",
+    "price": "986.49",
+    "category": "Industrial"
+  },
+  {
+    "name": "Handcrafted Metal Computer",
+    "price": "337.80",
+    "category": "Computers"
+  },
+  {
+    "name": "Oriental Steel Bacon",
+    "price": "51.09",
+    "category": "Grocery"
+  },
+  {
+    "name": "Fantastic Frozen Computer",
+    "price": "748.65",
+    "category": "Grocery"
+  },
+  {
+    "name": "Handcrafted Wooden Car",
+    "price": "716.75",
+    "category": "Shoes"
   }
 ]
