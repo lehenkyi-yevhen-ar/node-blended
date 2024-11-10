@@ -1,0 +1,19 @@
+{
+  "name": "blended",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js",
+    "get-min-price": "node src/scripts/getProductsByMinPrice.js",
+    "get-by-name": "node src/scripts/getProductByName.js"
+  },
+  "keywords": [],
+  "author": "Yevhen Lehenkyi <meister.ramires@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0"
+  }
+}
