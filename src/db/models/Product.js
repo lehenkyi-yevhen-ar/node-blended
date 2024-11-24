@@ -22,7 +22,7 @@ export const productSchema = new Schema(
   },
   {
     timestamps: true,
-    versionKeys: false,
+    versionKey: false,
   },
 );
 
