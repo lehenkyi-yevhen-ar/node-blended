@@ -10,7 +10,7 @@ import { ctrlWrapper } from '../utils/ctrlWrapper.js';
 const router = Router();
 
 router.post(
-  '/register',
+  '/signup',
   validateBody(registerUserSchema),
   ctrlWrapper(registerUserController),
 );

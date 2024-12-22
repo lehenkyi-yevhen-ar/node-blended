@@ -2,7 +2,7 @@ import createHttpError from 'http-errors';
 import {
   findUserByEmail,
   createUser,
-  createActiveSession,
+  updateUserWithToken,
 } from '../services/users.js';
 import bcrypt from 'bcrypt';
 
@@ -14,12 +14,11 @@ export const registerUserController = async (req, res) => {
   const newUser = await createUser(req.body);
 
   res.status(201).json({
-    status: 201,
-    message: 'Successfully registered a user!',
-    data: {
+    user: {
       name: newUser.name,
       email: newUser.email,
     },
+    token: newUser.token,
   });
 };
 
@@ -33,5 +32,14 @@ export const loginUserController = async (req, res) => {
   if (!isEqual) {
     throw createHttpError(401, 'Email or password is wrong');
   }
-  const session = await createActiveSession(user._id);
+
+  const updateUser = await updateUserWithToken(user._id);
+
+  res.status(201).json({
+    user: {
+      name: updateUser.name,
+      email: updateUser.email,
+    },
+    token: updateUser.token,
+  });
 };
